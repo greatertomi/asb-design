@@ -27,3 +27,71 @@ body {
     }
   }
 }
+
+.hyperlink {
+  color: #00A2D6;
+  text-decoration: underline;
+}
+
+.headingText {
+  font-size: 20px;
+  color: black !important;
+}
+
+.blackDot {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.summaryCard {
+  font-weight: bold;
+  box-shadow: 4px 5px 5px 0 #f1f0f0;;
+  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0;;
+  -moz-box-shadow: 4px 5px 5px 0 #f1f0f0;
+  border: 0;
+  .heading {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-bottom: 20px;
+    div:nth-child(1) {
+      padding: 12px 10px;
+      border-radius: 10px;
+      background: #00A2D6;
+    }
+  }
+  .card-body {
+    div:nth-child(2) {
+      color: #101B50;
+    }
+  }
+}
+
+table {
+  font-weight: bold;
+  tr:nth-child(1) {
+    background: #F3F6F9;
+  }
+}
+
+.badge {
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.badge-primary {
+  background: #f6f3ff;
+  color: #9379ff;
+}
+
+.badge-warning {
+  background: #fff6de;
+  color: #f4b608
+}
+
+.lightText {
+  color: #898794;
+}
+
