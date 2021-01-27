@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import MetricCard from './components/MetricCard';
+import DivisionSummaryCard from './components/DivisionSummaryCard';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MetricCard />
+      <DivisionSummaryCard />
+      <h3>FE Engineering Task</h3>
+      Welcome to React
     </div>
   );
 }
