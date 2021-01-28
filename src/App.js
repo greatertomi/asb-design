@@ -3,6 +3,9 @@ import './App.scss';
 import {AiOutlineCheckCircle, AiOutlineArrowRight} from 'react-icons/ai';
 import {IoEllipsisVertical} from 'react-icons/io5'
 import {BsArrowDownRight} from 'react-icons/bs'
+import ModuleHistoryCard from './components/ModuleHistoryCard';
+import Navbar from './components/Navbar';
+import BreakCrumb from './components/BreakCrumb';
 /*import DivisionSummaryCard from './components/DivisionSummaryCard';
 import MetricCard from './components/MetricCard';*/
 
@@ -13,7 +16,8 @@ const App = () => {
       {/*<MetricCard />*/}
       {/*<DivisionSummaryCard />*/}
       {/*AiOutlineCheckCircle, AiOutlineArrowRight, AiOutlineArrowUp, BsArrowDownRight */}
-      <h3>FE Engineering Task</h3>
+      <Navbar />
+      <BreakCrumb />
       <table className="table">
         <tr className="bg-light">
           <td>
@@ -85,6 +89,7 @@ const App = () => {
           </td>
         </tr>
       </table>
+      <ModuleHistoryCard />
     </div>
   );
 }

@@ -3,6 +3,7 @@
 body {
   background: white;
   font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
 }
 
 .metricCard {
@@ -45,23 +46,18 @@ body {
   border-radius: 50%;
 }
 
+.smallDot {
+  height: 5px;
+  width: 5px;
+  background-color: #ACB3D3;
+  border-radius: 50%;
+}
+
 .summaryCard {
-  font-weight: bold;
   box-shadow: 4px 5px 5px 0 #f1f0f0;;
   -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0;;
   -moz-box-shadow: 4px 5px 5px 0 #f1f0f0;
   border: 0;
-  .heading {
-    display: flex;
-    align-items: center;
-    color: black;
-    margin-bottom: 20px;
-    div:nth-child(1) {
-      padding: 12px 10px;
-      border-radius: 10px;
-      background: #00A2D6;
-    }
-  }
   .card-body {
     div:nth-child(2) {
       color: #101B50;
@@ -69,11 +65,37 @@ body {
   }
 }
 
+.heading {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-bottom: 20px;
+  div:nth-child(1) {
+    padding: 12px 10px;
+    border-radius: 10px;
+    background: #00A2D6;
+  }
+}
+
+.historyCard {
+  .content {
+    div:nth-child(2) {
+      color: #ACB3D3;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
 table {
-  font-weight: bold;
   tr:nth-child(1) {
     background: #F3F6F9;
   }
+}
+
+input[type=checkbox] {
+  width: 16px;
+  height: 16px;
 }
 
 .badge {
@@ -95,3 +117,57 @@ table {
   color: #898794;
 }
 
+#navbarNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: #72809D;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+
+nav {
+  padding: 0 16px !important;
+  margin-bottom: 15px;
+  box-shadow: 4px 5px 5px 0 #f1f0f0;;
+  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0;;
+  -moz-box-shadow: 4px 5px 5px 0 #f1f0f0;
+}
+
+.active {
+  background: #DEEFFF;
+  color: #006FD6;
+  border-bottom: 4px solid #006FD6;
+  .nav-link {
+    color: #006FD6 !important;
+  }
+}
+
+.searchBoxDiv {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 5px 8px;
+  border: 1px solid #b4b4b4;
+  input[type=text] {
+    margin-left: 3px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+  }
+}
+
+.userAvatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.breadcrumb {
+  background: white;
+  color: #898794;
+}
