@@ -7,14 +7,17 @@ body {
 }
 
 .metricCard {
-  box-shadow: 4px 5px 5px 0 #f1f0f0;;
-  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0;;
-  -moz-box-shadow: 4px 5px 5px 0 #f1f0f0;
+  box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -moz-box-shadow: 4px 5px 5px 0 #f6f6f6, -4px 5px 5px 0 #f1f0f0;
   margin: 15px 10px;
-  border: 0;
+  border: 1px solid #f1f1f1;
+  width: 80%;
+  height: 150px;
   div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     h2 {
       font-weight: bolder;
     }
@@ -54,10 +57,10 @@ body {
 }
 
 .summaryCard {
-  box-shadow: 4px 5px 5px 0 #f1f0f0;;
-  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0;;
-  -moz-box-shadow: 4px 5px 5px 0 #f1f0f0;
-  border: 0;
+  box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -moz-box-shadow: 4px 5px 5px 0 #f6f6f6, -4px 5px 5px 0 #f1f0f0;
+  border: 1px solid #f1f1f1;
   .card-body {
     div:nth-child(2) {
       color: #101B50;
@@ -78,6 +81,10 @@ body {
 }
 
 .historyCard {
+  box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -moz-box-shadow: 4px 5px 5px 0 #f6f6f6, -4px 5px 5px 0 #f1f0f0;
+  border: 1px solid #f1f1f1;
   .content {
     div:nth-child(2) {
       color: #ACB3D3;
@@ -88,6 +95,10 @@ body {
 }
 
 table {
+  border: 1px solid #f1f1f1;
+  box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -webkit-box-shadow: 4px 5px 5px 0 #f1f0f0, -4px 5px 5px 0 #f1f0f0;
+  -moz-box-shadow: 4px 5px 5px 0 #f6f6f6, -4px 5px 5px 0 #f1f0f0;
   tr:nth-child(1) {
     background: #F3F6F9;
   }

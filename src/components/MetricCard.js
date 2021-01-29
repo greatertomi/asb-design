@@ -1,13 +1,13 @@
 import React from 'react';
 import {AiOutlineInfoCircle} from 'react-icons/ai'
 
-const MetricCard = () => {
+const MetricCard = ({title, number}) => {
   return (
     <div className="card metricCard">
       <div className="card-body">
         <div id='numDiv'>
-          <h2>31454</h2>
-          <div>Ongoing metric</div>
+          <h2>{number}</h2>
+          <div className="ml-1">{title}</div>
         </div>
         <div>
           <AiOutlineInfoCircle size={40} color='#B4B4BB'/>
