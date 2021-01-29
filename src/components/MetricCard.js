@@ -3,7 +3,7 @@ import {AiOutlineInfoCircle} from 'react-icons/ai'
 
 const MetricCard = ({title, number}) => {
   return (
-    <div className="card metricCard">
+    <div className="card metricCard mt-n1">
       <div className="card-body">
         <div id='numDiv'>
           <h2>{number}</h2>

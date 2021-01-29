@@ -35,7 +35,7 @@ const Navbar = () => {
             <input type="text"/>
           </div>
           <div className="mr-4 pt-1">
-            <IoNotificationsSharp size={20} color="#898794" />
+            <IoNotificationsSharp size={20} className="notifBell" />
           </div>
           <div className="d-flex align-items-center">
             <img src={avatar} alt="user avatar" className="userAvatar" />

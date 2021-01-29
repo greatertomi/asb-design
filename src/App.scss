@@ -136,9 +136,22 @@ input[type=checkbox] {
 .nav-item {
   color: #72809D;
   display: flex;
+  cursor: pointer !important;
   align-items: center;
   padding: 10px 15px;
   margin: 0 10px;
+  &:hover {
+    background: #DEEFFF;
+    color: #006FD6;
+  }
+}
+
+.notifBell {
+  color: #898794;
+  cursor: pointer;
+  &:hover {
+    color: #49494a;
+  }
 }
 
 nav {
@@ -174,6 +187,7 @@ nav {
 
 .userAvatar {
   border-radius: 50%;
+  cursor: pointer;
   height: 40px;
   width: 40px;
 }
