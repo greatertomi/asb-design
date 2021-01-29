@@ -31,7 +31,7 @@ const Navbar = () => {
         </ul>
         <ul className="navbar-nav right-nav">
           <div className="searchBoxDiv mr-4">
-            <GoSearch />
+            <GoSearch className="mr-1" />
             <input type="text"/>
           </div>
           <div className="mr-4 pt-1">
